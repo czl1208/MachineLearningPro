@@ -1,0 +1,10 @@
+Preprocess.py : In the file, we can process the image in S1, S2, S3, S4. Then, store the 				 precessed image as npy file in PreImage folder.
+
+ReadFile.py : Read the file in PreImage folder and divid them into test part and train part
+
+GenerateLabel.py : generate the label of the image as csv file.
+
+CNNneon.py, svmhand.py, knn.py : they are the classifier.
+
+analysis.py : analysis the result of CNNneon.py
+
